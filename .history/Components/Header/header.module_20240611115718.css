@@ -1,0 +1,16 @@
+.main {
+  display: flex;
+}
+
+
+.nav {
+  right: 0;
+}
+.buttons {
+  display: flex;
+}
+
+.buttons li {
+  padding: 10px;
+  list-style-type: none;
+}

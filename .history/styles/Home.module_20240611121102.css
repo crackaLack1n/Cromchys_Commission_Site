@@ -1,0 +1,41 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 20vh;
+}
+
+.container {
+ display: grid;
+ grid-template-columns:  1fr 250vh 1fr;
+}
+
+.contentLeft {
+  width: 50vh;
+}
+
+.contentRight {
+  background-color: #3E5C76;
+  width: 100%;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .content {
+    padding: 4rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    margin-bottom: 120px;
+    max-width: 320px;
+    text-align: center;
+  }
+
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+  .grid {
+    grid-template-columns: repeat(2, 50%);
+  }
+}

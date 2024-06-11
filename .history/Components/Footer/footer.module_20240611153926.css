@@ -1,0 +1,26 @@
+.main {
+  display: flex;
+  padding: 3vh;
+  background-color: #0D1321;
+  color: antiquewhite;
+  flex-shrink: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.heading {
+  margin-right: 10vh;
+  font-size: 40px;
+}
+
+.button {
+  margin-right: 10vh;
+  width: 20vh;
+  height: 10vh;
+}

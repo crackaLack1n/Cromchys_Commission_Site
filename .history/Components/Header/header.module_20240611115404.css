@@ -1,0 +1,11 @@
+.main {
+  display: flex;
+}
+
+.buttons {
+  display: flex;
+}
+
+.buttons, li {
+  padding: 1px;
+}

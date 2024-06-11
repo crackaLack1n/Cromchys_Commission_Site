@@ -1,0 +1,19 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin: 3vh;
+}
+
+
+.nav {
+justify-content: end;
+}
+
+.buttons {
+  display: flex;
+}
+
+.buttons li {
+  padding: 10px;
+  list-style-type: none;
+}

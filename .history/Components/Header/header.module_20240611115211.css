@@ -1,0 +1,8 @@
+.main {
+  display: flex;
+}
+
+.buttons {
+  display: flex;
+  margin-left: 1vh;
+}

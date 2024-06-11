@@ -1,0 +1,56 @@
+.main {
+  display: flex;
+  min-height: 20vh;
+  background-color: #748CAB;
+}
+
+.mainContainer {
+ display: grid;
+ grid-template-columns:  1fr 3fr;
+ height: auto;
+ z-index: 0;
+}
+
+.containerLeft {
+  display: flex;
+  width: 70vh;
+  justify-content: center;
+}
+
+.contentLeft p {
+  font-size: 60px;
+  font-weight: 600;
+  margin: 20px;
+}
+.containerRight {
+  display: flex;
+
+  background-color: #1D2D44;
+  width: 100%;
+}
+
+.image {
+  z-index: 7;
+  display: flex;
+}
+/* Mobile */
+@media (max-width: 700px) {
+  .content {
+
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    margin-bottom: 120px;
+    max-width: 320px;
+    text-align: center;
+  }
+
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+  .grid {
+    grid-template-columns: repeat(2, 50%);
+  }
+}

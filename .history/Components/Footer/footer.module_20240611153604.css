@@ -1,0 +1,14 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 3vh;
+  background-color: #0D1321;
+  color: antiquewhite;
+  flex-shrink: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

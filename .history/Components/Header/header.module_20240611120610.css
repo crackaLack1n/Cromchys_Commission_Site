@@ -1,0 +1,22 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 3vh;
+  background-color: #0D1321;
+  color: antiquewhite;
+}
+
+
+.nav {
+justify-content: end;
+}
+
+.buttons {
+  display: flex;
+  color: antiquewhite;
+}
+
+.buttons li {
+  padding: 10px;
+  list-style-type: none;
+}

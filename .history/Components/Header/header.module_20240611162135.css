@@ -1,0 +1,36 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 3vh;
+  background-color: #0D1321;
+  color: antiquewhite;
+  align-items: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.main h2 {
+  font-size: 35px;
+
+}
+
+.nav {
+justify-content: end;
+font-family: sans-serif;
+
+}
+
+.buttons {
+  display: flex;
+  
+}
+
+.buttons li {
+  padding: 10px;
+  list-style-type: none;
+  color: antiquewhite;
+}
+
+.buttons a {
+  color: antiquewhite;
+}

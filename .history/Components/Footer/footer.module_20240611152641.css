@@ -1,0 +1,8 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 3vh;
+  background-color: #0D1321;
+  color: antiquewhite;
+  bottom: 0;
+}

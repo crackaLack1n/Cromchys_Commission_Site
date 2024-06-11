@@ -1,0 +1,18 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin: 2vh;
+}
+
+
+.nav {
+justify-content: end;
+}
+
+.buttons {
+  display: flex;
+}
+
+.buttons li {
+  list-style-type: none;
+}
