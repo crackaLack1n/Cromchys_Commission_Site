@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Header from "@/Components/Header";
 import Image from "next/image";
+import Link from "next/link";
 import styles from "@/styles/Home.module.css";
 import Footer from "@/Components/Footer";
 import { Lilita_One } from "next/font/google";
@@ -53,7 +54,7 @@ export default function Home() {
                 <p>Wanna reach out? Hit me up on Discord @crackalack1n</p>
                 <p>Find Me On: </p>
                   <ul>
-                    <li>(NSFW) Twitter: @Cromchy_Bones</li>
+                    <li>(Ko-Fi) <Link href="https://ko-fi.com/E1E49HTV" className={styles.link}>Alot0ftea</Link></li>
                     <li> (SFW) Tumblr: alot0ftea </li>
                   </ul>
               </div>
