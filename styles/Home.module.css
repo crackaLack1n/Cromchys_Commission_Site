@@ -52,6 +52,10 @@ margin-bottom: 10vh;
 width: 80%;
 }
 
+.link {
+  color: #748CAB;
+}
+
 /* Mobile */
 @media (max-width: 700px) {
 
